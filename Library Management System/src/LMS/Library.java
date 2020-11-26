@@ -617,8 +617,8 @@ public class Library {
         try
         {
             String host = "jdbc:derby://localhost:1527/LMS";
-            String uName = "haris";
-            String uPass= "123";
+            String uName = "yemmene";
+            String uPass= "Segolenee1";
             Connection con = DriverManager.getConnection( host, uName, uPass );
             return con;
         }
@@ -1222,14 +1222,14 @@ public class Library {
                   
               }
           }   
-    } // Filling Done!  
+    } 
     
     
     
     
     
     
-}   // Library Class Closed
+}   
 
 	 
 
