@@ -258,9 +258,6 @@ public class Main {
     
     
     
-    
-   
-    
     /*-------------------------------------MAIN---------------------------------------------------*/
     
     public static void main(String[] args)
@@ -478,9 +475,9 @@ public class Main {
             System.out.println("\nExiting...\n");
         }   // System Closed!
        
-    }    // Main Closed
+    }     
     
-}   // Class closed.
+}    
 
 
 

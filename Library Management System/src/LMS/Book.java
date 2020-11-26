@@ -15,10 +15,10 @@ public class Book {
     private ArrayList<HoldRequest> holdRequests; // record of all hold request on that book
  
     static int currentIdNumber = 0;     //This will be unique for every book, since it will be incremented when everytime
-                                        //when a book is created
+                                        // a book is created
     
   
-    public Book(int id,String t, String s, String a, boolean issued)    // Parameterise cons.
+    public Book(int id,String t, String s, String a, boolean issued)    // Parameterize cons.
     {
         currentIdNumber++;
         if(id==-1)
@@ -83,7 +83,8 @@ public class Book {
     // changign Info of a Book
     public void changeBookInfo() throws IOException
     {
-        Scanner scanner = new Scanner(System.in);
+        @SuppressWarnings("resource")
+		Scanner scanner = new Scanner(System.in);
         String input;
         
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));

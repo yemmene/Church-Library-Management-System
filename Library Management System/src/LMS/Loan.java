@@ -1,12 +1,8 @@
-
-
 package LMS;
 
 import java.time.temporal.ChronoUnit;
 import java.util.Date;
 import java.util.Scanner;
-
-
 
 public class Loan {
 			
@@ -34,7 +30,6 @@ public class Loan {
 	    }
 	    
 	    /*----- Getter FUNCs.------------*/
-	    
 	    
 		
 		public Book getBook()       //Returns the book

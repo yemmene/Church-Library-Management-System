@@ -1,10 +1,5 @@
 package LMS;
 
-
-
-
-
-
 	public class Clerk extends Staff {
 	  
 	    int deskNo;     //Desk Number of the Clerk
@@ -39,7 +34,7 @@ package LMS;
 			return null;
 		}
 	    
-	}   // Clerk's Class Closed
+	}   
 	
 
 

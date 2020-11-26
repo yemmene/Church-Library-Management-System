@@ -88,7 +88,7 @@ public abstract  class Person {
         currentIdNumber=n;
     }
    
-} // Person Class Closed
+}  
     
 
 

@@ -3,9 +3,7 @@ package LMS;
 import java.util.Date;
 
 public class HoldRequest {
-	
-	
-	    
+		    
 	    Borrower borrower;
 	    Book book;
 	    Date requestDate;

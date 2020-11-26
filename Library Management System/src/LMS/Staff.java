@@ -1,7 +1,5 @@
 package LMS;
 
-
-
 public class Staff extends Person {
 
 protected double salary;
