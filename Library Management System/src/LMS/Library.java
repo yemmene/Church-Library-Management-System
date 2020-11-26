@@ -616,7 +616,7 @@ public class Library {
     {        
         try
         {
-            String host = "jdbc:derby://localhost:1527/LMS";
+            String host = "jdbc:sqlserver:sqlsrv\\Desktop-67NNGRMV;DatabaseName=ChurchLibrary";
             String uName = "yemmene";
             String uPass= "Segolenee1";
             Connection con = DriverManager.getConnection( host, uName, uPass );
