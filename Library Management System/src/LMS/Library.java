@@ -429,7 +429,8 @@ public class Library {
     
     public void createPerson(char x)
     {
-        Scanner sc = new Scanner(System.in);
+        @SuppressWarnings("resource")
+		Scanner sc = new Scanner(System.in);
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
               
         System.out.println("\nEnter Name: ");
